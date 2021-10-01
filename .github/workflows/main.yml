@@ -79,8 +79,8 @@ jobs:
 
 
       - uses: suisei-cn/actions-download-file@v1
-        id: TransactionsInsertTwo  # Remember to give an ID if you need the output filename
-        name: Transactions Insert Two 
+        id: TransactionsAfterEditTwo  # Remember to give an ID if you need the output filename
+        name: Transactions After Edit Two 
         with:
           url: "https://desafio-cubos.s3.us-west-002.backblazeb2.com/cypress/fixtures/transactions-after-edit-two.json"
           target: cypress/fixtures/
